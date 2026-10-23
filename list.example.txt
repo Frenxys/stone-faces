@@ -1,0 +1,6 @@
+# One Minecraft nickname per line (lines starting with # are comments).
+# Copy this file to list.txt and put your own names in it.
+Notch
+jeb_
+Dinnerbone
+Technoblade

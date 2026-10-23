@@ -1,0 +1,33 @@
+:root{--bg:#141414;--panel:#1e1e1e;--line:#333;--fg:#e8e6e1;--mut:#8d8a84;--acc:#c9c3b6}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.4 "Segoe UI",system-ui,sans-serif}
+header{padding:32px 24px 8px;max-width:1200px;margin:auto}
+h1{margin:0;font:800 clamp(32px,6vw,64px)/1 Impact,"Arial Narrow",sans-serif;letter-spacing:.12em;
+  background:linear-gradient(#fff,#777 55%,#222);-webkit-background-clip:text;background-clip:text;color:transparent}
+header p{color:var(--mut);margin:6px 0 0}
+main{max-width:1200px;margin:auto;padding:16px 24px 64px;display:grid;gap:24px}
+.panel{background:var(--panel);border:1px solid var(--line);padding:20px;display:grid;gap:14px}
+textarea,input[type=text],input[type=number],select{width:100%;background:#111;color:var(--fg);border:1px solid var(--line);padding:8px;font:inherit}
+code{background:#111;padding:1px 5px}
+textarea{font-family:Consolas,monospace}
+.opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;align-items:end}
+.opts label{display:grid;gap:4px;color:var(--mut);font-size:13px}
+.opts .chk{display:flex;gap:8px;align-items:center;color:var(--fg)}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+button{background:var(--acc);color:#111;border:0;padding:10px 18px;font:700 14px inherit;cursor:pointer;text-transform:uppercase;letter-spacing:.06em}
+button:disabled{opacity:.35;cursor:default}
+button:not(:disabled):hover{background:#fff}
+.status{margin:0;color:var(--mut);min-height:1.4em}
+.ramp{display:flex;height:32px;overflow:hidden;border:1px solid var(--line)}
+.ramp canvas{flex:1;height:100%;image-rendering:pixelated;min-width:0}
+.out{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px}
+.card{background:var(--panel);border:1px solid var(--line);padding:12px;display:grid;gap:8px}
+.card canvas{width:100%;image-rendering:pixelated;aspect-ratio:1;background:#000}
+.card .row{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.card .row img{width:32px;height:32px;image-rendering:pixelated}
+.card .row button{padding:6px 10px;font-size:12px}
+.card.err{color:#e88;border-color:#733}
+.card.same{opacity:.8}
+.summary{border:1px solid var(--line);background:#181818;padding:10px 14px}
+.summary p{margin:2px 0}
+.summary .bad{color:#e88}

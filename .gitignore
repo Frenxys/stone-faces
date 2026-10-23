@@ -1,0 +1,18 @@
+# dependencies / OS / editor
+node_modules/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# generated output
+schematics/
+cache/
+
+# personal nickname list (list.example.txt is the tracked template)
+list.txt
+
+# exported sheets
+stone-faces.png
+stone-faces.json
+*.log

@@ -1,0 +1,9 @@
+{
+  "name": "stone-faces",
+  "version": "1.0.0",
+  "description": "Turn Minecraft player heads into grey stone block portraits, with PNG, JSON and Litematica export",
+  "license": "MIT",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node server.js" }
+}
