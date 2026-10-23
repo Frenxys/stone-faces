@@ -4,6 +4,8 @@ Turn Minecraft player heads into portraits built from grey and black stone block
 
 Everything is vanilla-obtainable and strictly greyscale: stone, andesite, deepslate, basalt, blackstone, grey concrete and wool, and so on. No bedrock, obsidian or end stone, and anything with a colour tint gets filtered out.
 
+![Stone Faces generating portraits for Notch, jeb_, Dinnerbone and Technoblade](docs/screenshot.png)
+
 ## Quick start
 
 You need [Node.js](https://nodejs.org) 18 or newer. There are no dependencies to install.
